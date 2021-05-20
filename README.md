@@ -18,7 +18,7 @@ For this project, I've have used Python 3.7.3 and the following Python libraries
 - plotly==4.5.0
 - gzip-reader==0.1
 - nltk==3.6.2
-- Flask==2.0.0
+- Flask==2.0.0  
 - sklearn==0.0
 - regex==2020.2.20
 - pickleshare==0.7.5
@@ -27,8 +27,7 @@ Please read the [instructions](workspace/README.md) to execute the program.
 
 ## File Description:
 
-- [ETL Pipeline Preparation.ipynb](ETL%20Pipeline%20Preparation.ipynb) and [process_data.py](workspace/data/
-process_data.py): ETL pipeline
+- [ETL Pipeline Preparation.ipynb](ETL%20Pipeline%20Preparation.ipynb) and [process_data.py](workspace/data/process_data.py): ETL pipeline
 - [ML Pipeline Preparation.ipynb](ML%20Pipeline%20Preparation.ipynb) and [train_classifier.py](workspace/models/train_classifier.py): machine learning pipeline
 - [run.py](workspace/app/run.py): web app
 
