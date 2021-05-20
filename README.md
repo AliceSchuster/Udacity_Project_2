@@ -5,8 +5,8 @@
 
 This project aims to analyze disaster data, by 
 - building an ETL pipeline to extract, clean, and store the data in a SQLite database
-- creating a machine learning pipeline to categorize real messages that have been sent during disaster events
-- developing a web app to classify a new incoming disaster message in several categories and vizusalize the model results
+- creating a machine learning pipeline (Random Forest Classifier) to categorize real messages that have been sent during disaster events
+- developing a web app to classify a new incoming disaster message in several categories and vizusalize the model data
 
 ## Installation
 
@@ -33,7 +33,13 @@ Please read the [instructions](workspace/README.md) to execute the program.
 
 ## Results of Web App
 
+Visualizing disaster response data:
+
 ![plot](screenshots/Dashboard_1.PNG)
+
+
+Classifying a new message:
+
 ![plot](screenshots/Dashboard_2.PNG)
 
 ## Acknowledgement
